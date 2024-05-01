@@ -5,7 +5,7 @@
 > Volume 17, Issue 2, pp 273–283, https://doi.org/10.1145/108556.108585
 
 
-## FM package
+## FM Package
 
 ```for
 C     FM 1.0                  David M Smith                  1-06-90
@@ -175,7 +175,11 @@ C         = 1   Causes all results to be rounded to the nearest FM
 C                  number, or to the value with an even last digit if
 C                  the result is halfway between two FM numbers.
 C
-C
+```
+
+### List of the Routines
+
+```for
 C  Here is a list of the routines in FM which are designed to be called
 C  by the user.  All are subroutines except logical function FMCOMP.
 C  MA, MB, MC refer to FM format numbers.
@@ -244,10 +248,11 @@ C  For each of these routines there is also a version available for
 C  which the argument list is the same but all FM numbers are in packed
 C  format.  The packed versions have the same names except 'FM' is
 C  replaced by 'FP' at the start of each name.
-C
-C
-C  NOTES ON ARRAY DIMENSIONS.
-C
+```
+
+### Notes on Array Dimensions
+
+```for
 C  The dimensions of the arrays in the FM package are defined using
 C  a PARAMETER statement at the top of each routine.  The size of
 C  these arrays depends on the values of parameters MXNDIG and NBITS.
@@ -256,10 +261,11 @@ C  NBITS is the number of bits used to represent integers.
 C
 C  FM numbers in packed format have size LPACK, and those in unpacked
 C  format have size LUNPCK.
-C
-C
-C  PORTABILITY NOTES.
-C
+```
+
+### Portability Notes
+
+```for
 C  In routines FMEQU and FMSUB there is code which attempts to
 C  determine if two input arrays refer to identical memory locations.
 C  Some optimizing compilers assume the arrays must be distinct and
