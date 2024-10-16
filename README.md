@@ -299,3 +299,18 @@ C  MAXINT loop is done with 64-bit precision.  Setting JBASE = 10**6
 C  or less may be ok, but the preferred solution is to select the
 C  64-bit integer compiler option.  Then JBASE = 10**9 can be used.
 ```
+
+
+## Copyright and License Agreement
+
+See: [copyright.htm](copyright.htm)
+
+### ACM Copyright Notice
+
+Permission to make digital or hard copies of part or all of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.
+Copyrights for components of this work owned by others than ACM must be honored. Abstracting with credit is permitted.
+To copy otherwise, to republish, to post on servers, or to redistribute to lists, requires prior specific permission and/or a fee.  
+Request permissions from Publications Dept, ACM Inc., fax +1 (212) 869-0481, or permissions@acm.org.
+
+Collected Algorithms, Special Edition CD-ROM  
+Copyright © 2000 by the Association for Computing Machinery, Inc. 1-58113-338-5/00/11 ... $5.00
