@@ -5,6 +5,7 @@
 > ACM Trans. Math. Softw. 17, 2 (June 1991), 273–283.  
 > https://doi.org/10.1145/108556.108585
 
+- Next Version: [FM 1.1 (1997)](https://github.com/ToMs-Algo/786-fm-1997)
 
 ## FM Package
 
